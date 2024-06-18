@@ -4,6 +4,10 @@ import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.fabricEnabled
 import com.facebook.react.defaults.DefaultReactActivityDelegate
+import android.os.Bundle; // 추가
+import com.facebook.react.ReactActivityDelegate; // 추가
+import com.facebook.react.ReactRootView; // 추가
+import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView; // 추가
 
 class MainActivity : ReactActivity() {
 
